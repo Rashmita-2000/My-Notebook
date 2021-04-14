@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mynotebook">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyNotebook">
+        <activity android:name=".Login"></activity>
+        <activity android:name=".Register">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Civilop" />
+        <activity android:name=".Mechanicalop" />
+        <activity android:name=".Polityop" />
+        <activity android:name=".Geographyop" />
+        <activity android:name=".Historyop" />
+        <activity android:name=".Sociologyop" />
+        <activity android:name=".Optional" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".CalendarActivity2" />
+        <activity android:name=".CalendarActivity" />
+        <activity android:name=".ListAdapterView21mag" />
+        <activity android:name=".NewActivity2mag" />
+        <activity android:name=".NewActivitymag" />
+        <activity android:name=".Magazines" />
+        <activity android:name=".science" />
+        <activity android:name=".Environment" />
+        <activity android:name=".Governance" />
+        <activity android:name=".Paper" />
+        <activity android:name=".Sociology" />
+        <activity android:name=".Ethics" />
+        <activity android:name=".International" />
+        <activity android:name=".Economy" />
+        <activity android:name=".Polity" />
+        <activity android:name=".Geography" />
+        <activity android:name=".Culture" />
+        <activity android:name=".Freedom" />
+        <activity android:name=".Society" />
+        <activity android:name=".NewActivity" />
+        <activity android:name=".History" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

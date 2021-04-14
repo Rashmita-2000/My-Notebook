@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "905124786610",
+    "project_id": "renaissance-app-ed571",
+    "storage_bucket": "renaissance-app-ed571.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905124786610:android:bfd48258f2705b57d7b4ab",
+        "android_client_info": {
+          "package_name": "com.example.mynotebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905124786610-6ah00tpv2inv4pie6ubvb2pl9e3tsmqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACupKhkStbLdgQy2Lcip6raz6VierkjTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905124786610-6ah00tpv2inv4pie6ubvb2pl9e3tsmqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
